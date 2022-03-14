@@ -21,7 +21,7 @@ public:
 			if (entry.InitCheck() < B_OK) continue;
 			BPath path(&entry);
 			const char *argv[] = {
-				"/Haiku/data/packages/wine/tools/winewrapper",
+				"wine64",
 				path.Path(),
 				NULL
 			};
